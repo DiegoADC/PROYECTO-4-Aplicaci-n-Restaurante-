@@ -1,0 +1,45 @@
+.ReserveComplete{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ReserveComplete-data{
+    font-size: 16px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.ReserveComplete-data-user, .ReserveComplete-data-reserve{
+    width: 100%;
+}
+
+.ReserveComplete-data-user div:nth-child(1), .ReserveComplete-data-reserve div:nth-child(1){
+    height: 43px;
+    font-size: 17px;
+    margin: 10px 0;
+    box-shadow: #a7a7a7 0px -1px 0px inset;
+    font-family: 'Bree Serif', serif;
+    display: flex;
+    align-items: center;
+    
+}.ReserveComplete-data-user div, .ReserveComplete-data-reserve div{
+    margin: 5px 0 10px;
+}.ReserveComplete-data-user div:nth-child(8){
+    margin-top: 35px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.ReserveComplete-data-reserve div:nth-child(9){
+    font-weight: 600;
+
+}
+
+@media only screen and (min-width: 650px) {
+    .ReserveComplete-data{
+        flex-direction: row;
+    
+    }
+}

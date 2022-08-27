@@ -1,0 +1,343 @@
+.SetionMenu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 ;
+}
+
+.SectionMenu-container {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.SectionMenu-img-movile {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.SectionMenu-img-movile div {
+    width: 15rem;
+    height: 15rem;
+    background-image: url(../../assets/images/fonds/home-movile.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.SectionMenu-text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.SectionMenu-text-container{
+    width: 200px;
+    margin: 40px 0 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.SectionMenu-text-container div{
+    font-size: 35px;
+    height: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.SectionMenu-text-container p{
+    font-size: 17px;
+    color: #7b7b7b;
+    text-align: center;
+}
+
+.SectionMenu-text-img {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+}
+
+.SectionMenu-text-img div{
+    height: 100%;
+    width: 50px;
+    background-repeat: no-repeat;
+}
+
+.SectionMenu-text-img div:nth-child(1){
+    width: 130px;
+    background-image: url(../../assets/images/logos/Home-realais.png);
+}.SectionMenu-text-img div:nth-child(2){
+    background-image: url(../../assets/images/logos/Home-50.png);
+}.SectionMenu-text-img div:nth-child(3){
+    background-image: url(../../assets/images/logos/Home-B.png);
+}
+
+
+.SectionMenu-Bar {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.SectionMenu-itemB{
+    width: 26%;
+    height: 2px;
+    background-color: #7b7b7b;
+}
+
+.SectionMenu-itemC{
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    border: 2px solid #7b7b7b;
+}
+
+.SectionInfo{
+    width: 100%;
+    padding: 60px 0;
+    background-image: radial-gradient(circle, #f7f7f7, #f6f6f6, #f6f6f6, #f5f5f5, #f4f4f4);
+    display: flex;
+    justify-content: center;
+}
+
+.SectionInfo-Container {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.SectionInfo-item{
+    height: 250px;
+    width: 140px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SectionInfo-item div:nth-child(1){
+    width: 100%;
+    height: 60%;
+    background-repeat: no-repeat;
+
+
+}.SectionInfo-item div:nth-child(2){
+    width: 100%;
+    height: 40%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.SectionInfo-item-text span{
+    height: 20%;
+    color: #000000;
+    font-size: 17px;
+    font-weight: bold;
+}.SectionInfo-item-text p{
+    height: 80%;
+    width: 95%;
+    color: #7b7b7b;
+    font-size: 12px;
+}
+
+.item-img-1{
+    background-image: url(../../assets/images/more/stars.jpg);
+}.item-img-2{
+    background-image: url(../../assets/images/more/Quality.png);
+}.item-img-3{
+    background-image: url(../../assets/images/more/Products-Quality.png);
+}.item-img-4{
+    background-image: url(../../assets/images/more/Events.png);
+}
+
+.SectionAbout{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.SectionAbout-Container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.SectionAbout-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.SectionAbout-img div {
+    height: 150px;
+    width: 270px;
+    background-position: -6px 0;
+    background-image: url(../../assets/images/logos/Steak-logo.png);
+    background-repeat: no-repeat;
+}
+
+.SectionAbout-container-text{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.SectionAbout-more{
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.SectionAbout-info{
+    font-size: 12px;
+    padding-top: 15px;
+    color: #7b7b7b;
+    text-align: center;
+
+}
+
+
+.SectionAbout-info-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.SectionAbout-info-item {
+    width: max-content;
+    max-width: 190px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+
+.SectionAbout-info-item div{
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.info-item-year, .info-item-rating {
+    font-size: 17px;
+}.info-item-contact, .info-item-ubication, .info-item-name{
+    font-size: 13px;
+}
+
+.info-item-top{
+    height: 70%;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-item-name {
+    padding-top: 5px;
+    color: #b4b4b4;
+}
+
+.info-item-contact div:nth-child(1), .info-item-contact div:nth-child(2){
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #929292;
+}
+
+
+.info-item-contact p {
+    font-size: 11px;
+}
+
+#Icon-phone, #Icon-Mail{
+    margin-right: 5px;
+}
+
+.info-item-rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 600px) {
+    .SetionMenu{
+        margin: 0;
+    }
+    .SectionMenu-container{
+        width: 100%;
+        margin-bottom: 20px;
+        height: 87vh;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        
+    }
+    .SectionMenu-img-movile {
+        display: none;
+    }
+    .SectionMenu-text{
+        padding-left: 30px;
+        justify-content: flex-start;
+
+    }
+    .SectionMenu-text-img{
+        justify-content: flex-start;
+        width: max-content;
+
+    }
+    .SectionMenu-text-container div, .SectionMenu-text-container p{
+        text-align: start;
+    }
+    .SectionMenu-img {
+        width: 100rem;
+        justify-content: flex-end;
+    }
+    .SectionMenu-img div{
+        height: 100%;
+        border-radius: 50px 0 0 ;
+        background-image: url(../../assets/images/fonds/home.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+    .SectionAbout-Container {
+        width: 80%;
+        margin: 75px 0;
+        flex-direction: row;
+    }
+    .SectionAbout-container-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .SectionAbout-img{
+        justify-content: center;
+        align-items: center;
+    }
+    .SectionAbout-img div {
+        height: 100%;
+        width: 20rem;
+        background-size: contain;
+    }
+    .SectionAbout-info{
+        text-align: start;
+        font-size: 15px;
+    }
+    .SectionAbout-info-item{
+        width: 50%;
+    }
+}

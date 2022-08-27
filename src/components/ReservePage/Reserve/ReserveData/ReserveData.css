@@ -1,0 +1,108 @@
+.ReserveData{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.ReserveData-Info{
+    display: flex;
+    flex-direction: column;
+}
+
+.ReserveData-data{
+    margin: 20px 0;
+    box-shadow: #a7a7a7 0px -1px 0px inset;
+
+}
+
+.ReserveData-data div:nth-child(1){
+    height: 32px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.ReserveData-data div:nth-child(2),.ReserveData-data div:nth-child(3),.ReserveData-data div:nth-child(4){
+    display: flex;
+    align-items: center;
+    height: 30px;
+    font-size: 14px;
+}
+.ReserveData-data div:nth-child(4){
+    margin-bottom: 7px;
+}
+.ReserveData-icon{
+    margin-right: 7px;
+}
+
+.ReserveData-text {
+    font-size: 11.5px;
+}
+
+.ReserveData-text div:nth-child(1){
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.ReserveData-text div span{
+    font-weight: bold;
+}
+.ReserveData-text div p{
+    line-height: 1rem;
+}
+
+.ReserveData-text div:nth-child(2), .ReserveData-text div:nth-child(3){
+    margin-bottom: 15px;
+}
+
+.ReserveData-submit{
+    margin-bottom: 20px;
+}
+
+.ReserveData-submit input{
+    width: 100%;
+    height: 40px;
+    background-color: #e2e2e2;
+    background-color: #fd8d59;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.ReserveData-submit input:hover{
+    background-color: #ff7e42;
+}
+
+.Container-submit-error{
+    margin: 7px 0 20px;
+    padding: 5px;
+    background-color: #ff00007c;
+    display: flex;
+    align-items: center;
+}
+
+.icon-submit-error{
+    margin-right: 5px;
+}
+.Container-submit-error span{
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 650px) {
+    .ReserveData{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 30px;
+    }
+    .ReserveData-Info{
+        grid-column: 2;
+    }
+    .DataInputs-Container{
+        grid-row: 1;
+
+    }
+    .ReserveData-submit {
+        grid-column: 1/3;
+
+    }
+}

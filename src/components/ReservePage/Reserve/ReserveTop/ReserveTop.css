@@ -1,0 +1,29 @@
+:root {
+    --select-color: #ff5100;
+}
+
+.ReserveTop{
+    height: 25px;
+    font-size: 13px;
+    margin-top: 25px;
+    font-weight: bold;
+    display: flex;
+    box-shadow: #a7a7a7 0px -1px 0px inset;
+
+}
+
+.ReserveTop div:nth-child(1){
+    padding-right: 15px
+}
+
+.ReserveTop-active {
+    color: var(--select-color);
+    border-bottom: 2px solid var(--select-color);
+}
+
+@media only screen and (min-width: 650px) {
+    .ReserveTop{
+        font-size: 13.5px;
+    
+    }
+}

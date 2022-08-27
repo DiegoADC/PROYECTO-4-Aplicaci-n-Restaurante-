@@ -1,0 +1,85 @@
+.Footer{
+    width: 100%;
+    padding: 20px 0;
+    background-color: #1d191a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.Footer-Container {
+    width: 90%;
+    font-size: 9px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Footer-Network{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+.Footer-About-Container {
+    width: 70%;
+    min-width: 15em;
+    display: flex;
+
+}
+.Footer-About{
+    max-width: 13rem;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.Footer-About-Container a{
+    width: 95px;
+    padding: 5px 0;
+
+}
+.Footer-About-Container a:hover{
+    color: #e87636;
+
+}
+
+
+.Footer-Network-Container{
+    width: 50%;
+    min-width: 15em;
+    display: flex;
+    justify-content: flex-end;
+}
+.Network-Items-Container{
+    width: 7em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.Network-Items{
+    margin: 0 0 5px;
+    font-size: 20px;
+
+}
+
+
+
+.Footer-Text-Container{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.Footer-Text{
+    width: 15rem;
+    text-align: center;
+}
+

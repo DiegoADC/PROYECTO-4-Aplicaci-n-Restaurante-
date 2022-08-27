@@ -1,0 +1,44 @@
+.ReserveSearch {
+    margin: 15px 0 25px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(40px, 40px);
+    font-size: 14px;
+    display: grid;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.ReserveSearch-people, .ReserveSearch-time{
+    border: 1px solid #cccccc ;
+    background-color: #fff;
+    outline: none;
+}
+
+.ReserveSearch-people:hover, .ReserveSearch-time:hover, .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input:hover {
+    border: 1px solid #919191 !important;
+}
+
+.ReserveSearch-btn{
+    grid-column: 1/4;
+    color: #fff;
+    background-color: #fd8d59;
+    transition: background-color 400ms ease-out 0s;
+    border: none;
+    font-weight: bolder;
+}
+
+.ReserveSearch-btn:hover{
+    background-color: #d36323;
+}
+
+
+
+@media only screen and (min-width: 520px) {
+    .ReserveSearch {
+        grid-template-columns: 95px 90px 85px 120px;
+        grid-auto-rows: minmax(40px, 0);
+    }
+    .ReserveSearch-btn{
+        grid-column: 4;
+    }
+
+}

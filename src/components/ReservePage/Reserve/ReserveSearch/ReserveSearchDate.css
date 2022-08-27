@@ -1,0 +1,32 @@
+.css-1yq5fb3-MuiButtonBase-root-MuiIconButton-root{
+    padding: 0 !important;
+}
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root{
+    background-color: #fff !important;
+}
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input{
+    padding: 16.5px 7px !important;
+    font-weight: 100 !important;
+    font-size: 14px !important;
+    background-color: #fff !important;
+    box-sizing: border-box !important;
+    font-family: 'Noto Sans', sans-serif !important;
+}
+
+
+.MuiInputBase-root{
+    height: 40px !important;
+
+}
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
+    height: 40px !important;
+}
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+    height: 5px !important;
+    padding: 16.5px 7px !important;
+    border: 1px solid #cccccc !important;
+    font-weight: 100 !important;
+    font-size: 14px !important;
+    background-color: #fff !important;
+    font-family: 'Noto Sans', sans-serif !important;
+}

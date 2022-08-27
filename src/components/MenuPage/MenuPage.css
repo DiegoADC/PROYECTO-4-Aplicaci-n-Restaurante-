@@ -1,0 +1,83 @@
+.MenuPage{
+    width: 100%;
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.MenuPage-Container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.MenuPage-title{
+    font-size: 23px;
+    color: #da3743;
+    margin-bottom: 25px;
+}
+
+.MenuPage-NavBar{
+    font-size: 17px;
+    margin-bottom: 20px;
+    display: flex;
+    width: 100%;
+}
+
+
+.MenuPage-NavBar div{
+    width: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    transition: color 350ms, box-shadow 350ms;
+}
+
+.MenuPage-NavBar div:hover{
+    box-shadow: #da3743 0px -1px 0px inset;
+    color: #da3743;
+
+}
+
+.MenuPage-NavBar-active{
+    box-shadow: #da3743 0px -1px 0px inset;
+    color: #da3743;
+}
+
+
+.MenuPage-season div:nth-child(1){
+    color: #6f5b55;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    margin-top: 35px;
+}.MenuPage-season div:nth-child(2){
+    font-weight: bold;
+    color: #da3743;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin: 15px 0;
+}
+
+.MenuPage-Menu p {
+    color: #6f5b55;
+    margin: 20px 0;
+}
+
+
+
+@media only screen and (min-width: 650px) {
+    .MenuPage-Container{
+        width: 60%;
+    }
+    .MenuPage-NavBar{
+        width: 70%;
+    }
+}

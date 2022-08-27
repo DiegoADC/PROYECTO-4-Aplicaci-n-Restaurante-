@@ -1,0 +1,53 @@
+.DataInputs-Container div{
+    margin-bottom: 20px;
+
+}
+
+.DataInputs{
+    width: 100%;
+    height: 40px;
+    padding: 0 0 0 15px;
+    font-size: 15px;
+    border-radius: 4px;
+    border: 1.4px solid #a7a7a7;
+    background-color: #f1f1f1;
+    outline: none;
+}
+
+.DataInputs-Container div{
+    position: relative;
+}
+
+.input-icon {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+  
+.input-icon-valid {
+    color: #4da64d;
+
+}
+
+.input-icon-notValid{
+    color: red;
+}
+
+.inputs-Valid:focus{
+    border: 2px solid #4da64d;
+}
+
+.inputs-NotValid:focus {
+    border: 2px solid red;
+
+}
+
+
+
+@media only screen and (min-width: 650px) {
+    .DataInputs-Container{
+        margin-top: 20px;
+    
+    }
+}

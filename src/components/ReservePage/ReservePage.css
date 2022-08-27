@@ -1,0 +1,31 @@
+.ReservePage {
+    width: 100%;
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ReservePage-Container-Card {
+    width: 80%;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.ReservePage-Card-Middle{
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 650px) {
+    .ReservePage {
+        margin: 40px 0 200px;
+    }
+    .ReservePage-Container-Card {
+        width: 580px;
+    }
+}
